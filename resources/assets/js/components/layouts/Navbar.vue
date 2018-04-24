@@ -3,15 +3,15 @@
     <!-- Logo -->
     <a @click="goHome" href="#" class="logo">
       <!-- mini logo for sidebar mini 50x50 pixels -->
-      <span class="logo-mini"><b>V</b>UE</span>
+      <span class="logo-mini">知识库管理</span>
       <!-- logo for regular state and mobile devices -->
-      <span class="logo-lg"><b>Vue.js</b> News</span>
+      <span class="logo-lg">知识库管理</span>
     </a>
     <!-- Header Navbar -->
     <nav class="navbar navbar-static-top" role="navigation">
       <!-- Sidebar toggle button-->
       <a href="#" class="sidebar-toggle" data-toggle="offcanvas" role="button">
-        <span class="sr-only">Toggle navigation</span>
+        <span class="sr-only">切换导航</span>
       </a>
       <!-- Navbar Right Menu -->
       <div class="navbar-custom-menu">
@@ -31,7 +31,7 @@
               <!-- The user image in the menu -->
               <li class="user-header">
                 <img class="profile-user-img img-responsive img-circle"
-                :src="user.avatar || '/noimage.jpg'" alt="User profile picture">
+                :src="user.avatar || '/noimage.jpg'" alt="用户头像">
 
                 <p>
                   {{user.name}}
@@ -43,10 +43,10 @@
               <!-- Menu Footer-->
               <li class="user-footer">
                 <div class="pull-left">
-                  <a v-link="{ path: '/profile' }" class="btn btn-default btn-flat">Profile</a>
+                  <a v-link="{ path: '/profile' }" class="btn btn-default btn-flat">详情</a>
                 </div>
                 <div class="pull-right">
-                  <a href="#" class="btn btn-default btn-flat" @click="logout">Log out</a>
+                  <a href="#" class="btn btn-default btn-flat" @click="logout">退出</a>
                 </div>
               </li>
             </ul>

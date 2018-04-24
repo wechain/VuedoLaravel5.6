@@ -8,8 +8,8 @@
       <!-- Content Header (Page header) -->
       <section class="content-header">
         <h1>
-          Admin Panel
-          <small>Everything is here.</small>
+          管理面板
+          <small>数据一览</small>
         </h1>
       </section>
 
