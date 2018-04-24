@@ -35,11 +35,11 @@
             <div>
                 <button class="btn btn-primary start">
                     <i class="fa fa-upload"></i>
-                    <span>Start</span>
+                    <span>开始</span>
                 </button>
                 <button data-dz-remove class="btn btn-warning cancel">
                     <i class="fa fa-remove"></i>
-                    <span>Cancel</span>
+                    <span>取消</span>
                 </button>
             </div>
         </div>

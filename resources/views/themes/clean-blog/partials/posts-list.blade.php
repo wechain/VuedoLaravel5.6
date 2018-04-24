@@ -1,7 +1,7 @@
 @if( count($posts) == 0 )
     <div class="post-preview">
         <h2 class="post-title">
-            Whoops, there are no posts here yet :/
+            暂无文章:/
         </h2>
     </div>
 @endif

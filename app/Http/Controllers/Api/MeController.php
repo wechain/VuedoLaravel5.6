@@ -93,7 +93,7 @@ class MeController extends ApiController
                 $this->user->addMedia($request->file('file'))->preservingOriginal()->toMediaCollection('profile');
             }
         }else{
-            return $this->errorWrongArgs("No image submited.");
+            return $this->errorWrongArgs("无图片提交。");
         }
 
         $this->user = User::findOrFail($this->user->id);

@@ -88,7 +88,7 @@ class CategoriesController extends ApiController
 
         return $this->respondWithArray([
             'success' => true,
-            'message' => 'Successfully deleted category.'
+            'message' => '分类删除成功。'
         ]);
     }
 }

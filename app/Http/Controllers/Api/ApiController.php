@@ -80,7 +80,7 @@ class ApiController extends Controller
         
         //if $data is null throw error
         if(!$data){
-            return $this->errorNotFound('Requested response not found.');
+            return $this->errorNotFound('请求未找到。');
         }
         //if $data is a Collection or a Paginated Collection
         else if($data instanceof Collection || $data instanceof LengthAwarePaginator){

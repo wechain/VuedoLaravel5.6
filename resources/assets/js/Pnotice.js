@@ -12,14 +12,14 @@ export function show_stack_success(msg, response) {
 
     }
     if (msg === undefined) {
-        opts.title = "Over Here";
-        opts.text = "Everything worked.";
+        opts.title = "在这里";
+        opts.text = "一切就绪.";
         opts.type = "success";
         opts.addclass = "stack-bottomright";
         opts.stack = stack_bottomright
     } else {
         opts.title = msg;
-        opts.text = 'Success!';
+        opts.text = '成功!';
         opts.type = "success";
     }
     new PNotify(opts);
@@ -62,14 +62,14 @@ export function show_stack_info(msg, response) {
         closer: true
     }
     if (msg === undefined) {
-        opts.title = "Notice me";
-        opts.text = "All in order.";
+        opts.title = "提示";
+        opts.text = "一切就绪.";
         opts.type = "info";
         opts.addclass = "stack-bottomright";
         opts.stack = stack_bottomright
     } else {
         opts.title = msg;
-        opts.text = 'Everything in order';
+        opts.text = '一切就绪';
         opts.type = "info"
     }
     new PNotify(opts);

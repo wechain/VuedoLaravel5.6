@@ -5,25 +5,25 @@
     <div class="row">
         <div class="col-md-12">
           <a v-if="post.status == 'approved'" href="/blog/{{post.slug}}" target="blank"  class="btn btn-lg btn-flat btn-success" role="button" style="margin-bottom: 15px;">
-            View Post
+            查看文章
           </a>
             <div class="box box-info">
                 <div class="box-header">
-                    <h3 class="box-title">Post Editor
-                        <small>Markdown Editor</small>
+                    <h3 class="box-title">文章编辑器
+                        <small>Markdown 编辑器</small>
                     </h3>
                 </div>
                 <div class="box-body pad">
                     <div class="form-horizontal" enctype="multipart/form-data">
                       <div class="form-group">
-                        <label for="title" class="col-sm-1 control-label">Title</label>
+                        <label for="title" class="col-sm-1 control-label">标题</label>
                      
                         <div class="col-sm-11">
                           <input class="form-control" id="title" placeholder="title" v-model="post.title">
                         </div>
                       </div>
                       <div class="form-group">
-                        <label for="categories" class="col-sm-1 control-label">Select categories</label>
+                        <label for="categories" class="col-sm-1 control-label">选择分类</label>
                         <div class="col-sm-11" props="">
                             <multiselect  :selected="post.categories.data" :options="options2" 
                              key="hashid"  label="name"
@@ -35,25 +35,22 @@
                       </div> 
 
                         <div class="form-group">
-                          <label for="image" class="col-sm-1 control-label">Image</label>
+                          <label for="image" class="col-sm-1 control-label">图片</label>
                           <div class="col-sm-5">
                               <dropzone   :model='post.image' :action="'/api/posts/'+postId+'/image'"></dropzone>
                           </div>
                         </div>
 
                       <div class="form-group">
-                        <label for="description" class="col-sm-1 control-label">Description</label>
+                        <label for="description" class="col-sm-1 control-label">描述</label>
                         <div class="col-sm-11">
                           <input class="form-control" id="description" placeholder="description" v-model="post.description">
                         </div>
                       </div>
                         <textarea id="mdeditor" name="content"></textarea>
-                        <button v-if="isPublished" type="button" @click="publishPost(post)" class="btn btn-lg btn-success btn-flat pull-right">
-                            Publish Post
-                        </button>
-                        <button type="button" @click="updatePost(post)" class="btn btn-lg btn-primary btn-flat pull-right">Save Post</button>
-                        <button class="btn btn-danger btn-flat btn-lg"  @click="deletePost(post)">Delete
-                        </button>
+                        <button v-if="isPublished" type="button" @click="publishPost(post)" class="btn btn-lg btn-success btn-flat pull-right">发布到前台</button>
+                        <button type="button" @click="updatePost(post)" class="btn btn-lg btn-primary btn-flat pull-right">保存</button>
+                        <button class="btn btn-danger btn-flat btn-lg"  @click="deletePost(post)">删除</button>
                     </div>
                 </div>
             </div>
@@ -113,10 +110,10 @@ export default {
             post.content = this.simplemde.value()
             return new Promise((resolve, reject) => {
                 this.$http.patch('/api/posts/' + post.hashid, post).then((response) => {
-                    show_stack_success('Post saved!', response)
+                    show_stack_success('文章保存成功!', response)
                     resolve()
                 }, function (response) {
-                    show_stack_error('Failed to save post!', response)
+                    show_stack_error('文章保存失败!', response)
                     reject()
                 });
             })
@@ -137,8 +134,8 @@ export default {
                     self.updatePost(post).then(() => {
                         self.$http.post('/api/posts/' + post.hashid + '/publish', post).then(function (response) {
                             swal(
-                                    'Published!',
-                                    'Your post has been published to the world!.',
+                                    '已发布!',
+                                    '该文章已发布成功.',
                                     'success'
                             );
                             this.$router.go('/posts/')
@@ -152,7 +149,7 @@ export default {
                         swal(
                             '取消',
                             '你的文章未发布 :)',
-                            '错误'
+                            'error'
                         );
                     }
                 });
@@ -160,44 +157,43 @@ export default {
         },
         fetchCatetgories () {
             this.$http({url: '/api/categories', method: 'GET'}).then(function (response) {
-                // console.log(response.data);
                 this.$set('options2', response.data.data)
             })
         },
         onChangeAction (value) {
             this.values = value
             this.$http.patch('/api/posts/' + this.postId + '/categories', {categories: value}).then((response) => {
-                show_stack_success('Categories updated!', response)
+                show_stack_success('分类编辑成功!', response)
             }, function (response) {
-                show_stack_error('Failed update categories!', response)
+                show_stack_error('分类编辑失败!', response)
             });
         },
         deletePost (post) {
             let self = this
             swal({
-                title: 'Are you sure?',
-                text: 'You will not be able to recover this post!',
+                title: '确定删除吗?',
+                text: '文章一旦删除无法恢复!',
                 type: 'warning',
                 showCancelButton: true,
-                confirmButtonText: 'Yes, delete it!',
-                cancelButtonText: 'No, keep it',
+                confirmButtonText: '删除!',
+                cancelButtonText: '取消',
             }).then(function () {
                 self.$http.delete('/api/posts/' + post.hashid, post).then(function (response) {
                     self.$router.go('/posts')
                     swal(
-                            'Deleted!',
-                            'Your post has been deleted.',
+                            '删除',
+                            '该文章已被删除',
                             'success'
                     );
                 }, function (response) {
-                    show_stack_error('Deletion of post went wrong.', response)
+                    show_stack_error('文章删除失败', response)
                 })
             }, function (dismiss) {
                 // dismiss can be 'cancel', 'overlay', 'close', 'timer'
                 if (dismiss === 'cancel') {
                     swal(
-                            'Cancelled',
-                            'Your post is safe :)',
+                            '取消',
+                            '文章未删除',
                             'error'
                     );
                 }

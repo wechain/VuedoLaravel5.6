@@ -103,7 +103,7 @@ class PostsController extends ApiController
                 $post->addMedia($request->file('file'))->preservingOriginal()->toMediaCollection('featured');
             }
         }else {
-            return $this->errorWrongArgs("No image submited.");
+            return $this->errorWrongArgs("没有图片被提交。");
         }
         // fetch post again since media seems to be cached :(
         $post = Post::withPostponed()->findOrFail($post->id);
@@ -148,7 +148,7 @@ class PostsController extends ApiController
 
         return $this->respondWithArray([
             'success' => true,
-            'message' => 'Successfully deleted post.'
+            'message' => '文章已被删除。'
         ]);
     }
 }
