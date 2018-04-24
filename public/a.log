@@ -1,0 +1,611 @@
+
+=====res====
+array (
+  0 => 'view-dashboard',
+  1 => true,
+)
+=====res====
+array (
+  0 => 'manage-post',
+  1 => true,
+)
+=====res====
+array (
+  0 => 'manage-post',
+  1 => true,
+)
+=====res====
+array (
+  0 => 'view-dashboard',
+  1 => true,
+)
+=====res====
+array (
+  0 => 'view-dashboard',
+  1 => true,
+)
+=====res====
+array (
+  0 => 'view-dashboard',
+  1 => false,
+)
+=====res====
+array (
+  0 => 'view-dashboard',
+  1 => true,
+)
+=====res====
+array (
+  0 => 'view-dashboard',
+  1 => true,
+)
+=====res====
+array (
+  0 => 'view-dashboard',
+  1 => false,
+)
+=====res====
+array (
+  0 => 'view-dashboard',
+  1 => true,
+)
+=====res====
+array (
+  0 => 'manage-post',
+  1 => true,
+)
+=====res====
+array (
+  0 => 'manage-post-categories',
+  1 => true,
+)
+=====res====
+array (
+  0 => 'manage-post-categories',
+  1 => true,
+)
+=====res====
+array (
+  0 => 'view-dashboard',
+  1 => false,
+)
+=====res====
+array (
+  0 => 'view-dashboard',
+  1 => true,
+)
+=====res====
+array (
+  0 => 'view-dashboard',
+  1 => false,
+)
+=====res====
+array (
+  0 => 'view-dashboard',
+  1 => false,
+)
+=====res====
+array (
+  0 => 'view-dashboard',
+  1 => true,
+)
+=====res====
+array (
+  0 => 'manage-post',
+  1 => true,
+)
+=====res====
+array (
+  0 => 'view-dashboard',
+  1 => true,
+)
+=====res====
+array (
+  0 => 'view-dashboard',
+  1 => true,
+)
+=====res====
+array (
+  0 => 'view-dashboard',
+  1 => true,
+)
+=====res====
+array (
+  0 => 'view-dashboard',
+  1 => true,
+)
+=====res====
+array (
+  0 => 'view-dashboard',
+  1 => true,
+)
+=====res====
+array (
+  0 => 'view-dashboard',
+  1 => true,
+)
+=====res====
+array (
+  0 => 'view-dashboard',
+  1 => true,
+)
+=====res====
+array (
+  0 => 'manage-post',
+  1 => true,
+)
+=====res====
+array (
+  0 => 'view-dashboard',
+  1 => false,
+)
+=====res====
+array (
+  0 => 'view-dashboard',
+  1 => true,
+)
+=====res====
+array (
+  0 => 'view-dashboard',
+  1 => true,
+)
+=====res====
+array (
+  0 => 'view-dashboard',
+  1 => true,
+)
+=====res====
+array (
+  0 => 'view-dashboard',
+  1 => true,
+)
+=====res====
+array (
+  0 => 'view-dashboard',
+  1 => true,
+)
+=====res====
+array (
+  0 => 'view-dashboard',
+  1 => true,
+)
+=====res====
+array (
+  0 => 'view-dashboard',
+  1 => true,
+)
+=====res====
+array (
+  0 => 'manage-post',
+  1 => true,
+)
+=====res====
+array (
+  0 => 'manage-post',
+  1 => true,
+)
+=====res====
+array (
+  0 => 'manage-post-categories',
+  1 => true,
+)
+=====res====
+array (
+  0 => 'manage-post-categories',
+  1 => true,
+)
+=====res====
+array (
+  0 => 'manage-post-categories',
+  1 => true,
+)
+=====res====
+array (
+  0 => 'manage-post-categories',
+  1 => true,
+)
+=====res====
+array (
+  0 => 'view-dashboard',
+  1 => false,
+)
+=====res====
+array (
+  0 => 'view-dashboard',
+  1 => true,
+)
+=====res====
+array (
+  0 => 'manage-post-categories',
+  1 => true,
+)
+=====res====
+array (
+  0 => 'manage-post',
+  1 => true,
+)
+=====res====
+array (
+  0 => 'manage-post',
+  1 => true,
+)
+=====res====
+array (
+  0 => 'publish_post',
+  1 => true,
+)
+=====res====
+array (
+  0 => 'manage-post',
+  1 => true,
+)
+=====res====
+array (
+  0 => 'manage-post',
+  1 => true,
+)
+=====res====
+array (
+  0 => 'manage-post',
+  1 => true,
+)
+=====res====
+array (
+  0 => 'manage-post',
+  1 => true,
+)
+=====res====
+array (
+  0 => 'manage-post',
+  1 => true,
+)
+=====res====
+array (
+  0 => 'manage-post',
+  1 => true,
+)
+=====res====
+array (
+  0 => 'manage-post',
+  1 => true,
+)
+=====res====
+array (
+  0 => 'manage-post',
+  1 => true,
+)
+=====res====
+array (
+  0 => 'manage-post',
+  1 => true,
+)
+=====res====
+array (
+  0 => 'manage-post',
+  1 => true,
+)
+=====res====
+array (
+  0 => 'manage-post',
+  1 => true,
+)
+=====res====
+array (
+  0 => 'manage-post',
+  1 => true,
+)
+=====res====
+array (
+  0 => 'manage-post',
+  1 => true,
+)
+=====res====
+array (
+  0 => 'manage-post',
+  1 => true,
+)
+=====res====
+array (
+  0 => 'manage-post',
+  1 => true,
+)
+=====res====
+array (
+  0 => 'manage-post',
+  1 => true,
+)
+=====res====
+array (
+  0 => 'manage-post',
+  1 => true,
+)
+=====res====
+array (
+  0 => 'manage-post',
+  1 => true,
+)
+=====res====
+array (
+  0 => 'manage-post',
+  1 => true,
+)
+=====res====
+array (
+  0 => 'manage-post',
+  1 => true,
+)
+=====res====
+array (
+  0 => 'manage-post',
+  1 => true,
+)
+=====res====
+array (
+  0 => 'manage-post',
+  1 => true,
+)
+=====res====
+array (
+  0 => 'manage-post',
+  1 => true,
+)
+=====res====
+array (
+  0 => 'manage-post',
+  1 => true,
+)
+=====res====
+array (
+  0 => 'manage-post',
+  1 => true,
+)
+=====res====
+array (
+  0 => 'manage-post',
+  1 => true,
+)
+=====res====
+array (
+  0 => 'manage-post',
+  1 => true,
+)
+=====res====
+array (
+  0 => 'manage-post',
+  1 => true,
+)
+=====res====
+array (
+  0 => 'manage-post',
+  1 => true,
+)
+=====res====
+array (
+  0 => 'manage-post',
+  1 => true,
+)
+=====res====
+array (
+  0 => 'manage-post',
+  1 => true,
+)
+=====res====
+array (
+  0 => 'manage-post',
+  1 => true,
+)
+=====res====
+array (
+  0 => 'manage-post',
+  1 => true,
+)
+=====res====
+array (
+  0 => 'manage-post',
+  1 => true,
+)
+=====res====
+array (
+  0 => 'manage-post',
+  1 => true,
+)
+=====res====
+array (
+  0 => 'manage-post',
+  1 => true,
+)
+=====res====
+array (
+  0 => 'manage-post',
+  1 => true,
+)
+=====res====
+array (
+  0 => 'manage-post',
+  1 => true,
+)
+=====res====
+array (
+  0 => 'manage-post',
+  1 => true,
+)
+=====res====
+array (
+  0 => 'manage-post',
+  1 => true,
+)
+=====res====
+array (
+  0 => 'manage-post',
+  1 => true,
+)
+=====res====
+array (
+  0 => 'manage-post',
+  1 => true,
+)
+=====res====
+array (
+  0 => 'manage-post',
+  1 => true,
+)
+=====res====
+array (
+  0 => 'manage-post',
+  1 => true,
+)
+=====res====
+array (
+  0 => 'manage-post',
+  1 => true,
+)
+=====res====
+array (
+  0 => 'manage-post',
+  1 => true,
+)
+=====res====
+array (
+  0 => 'manage-post',
+  1 => true,
+)
+=====res====
+array (
+  0 => 'manage-post',
+  1 => true,
+)
+=====res====
+array (
+  0 => 'manage-post',
+  1 => true,
+)
+=====res====
+array (
+  0 => 'manage-post',
+  1 => true,
+)
+=====res====
+array (
+  0 => 'manage-category',
+  1 => true,
+)
+=====res====
+array (
+  0 => 'manage-category',
+  1 => true,
+)
+=====res====
+array (
+  0 => 'manage-post-categories',
+  1 => true,
+)
+=====res====
+array (
+  0 => 'manage-post-categories',
+  1 => true,
+)
+=====res====
+array (
+  0 => 'manage-post-categories',
+  1 => true,
+)
+=====res====
+array (
+  0 => 'manage-post',
+  1 => true,
+)
+=====res====
+array (
+  0 => 'view-dashboard',
+  1 => true,
+)
+=====res====
+array (
+  0 => 'manage-post-categories',
+  1 => true,
+)
+=====res====
+array (
+  0 => 'manage-post-categories',
+  1 => true,
+)
+=====res====
+array (
+  0 => 'view-dashboard',
+  1 => false,
+)
+=====res====
+array (
+  0 => 'view-dashboard',
+  1 => true,
+)
+=====res====
+array (
+  0 => 'view-dashboard',
+  1 => false,
+)
+=====res====
+array (
+  0 => 'view-dashboard',
+  1 => true,
+)
+=====res====
+array (
+  0 => 'manage-post-categories',
+  1 => true,
+)
+=====res====
+array (
+  0 => 'manage-post-categories',
+  1 => true,
+)
+=====res====
+array (
+  0 => 'manage-post-categories',
+  1 => true,
+)
+=====res====
+array (
+  0 => 'manage-post-categories',
+  1 => true,
+)
+=====res====
+array (
+  0 => 'view-dashboard',
+  1 => false,
+)
+=====res====
+array (
+  0 => 'view-dashboard',
+  1 => true,
+)
+=====res====
+array (
+  0 => 'manage-post-categories',
+  1 => true,
+)
+=====res====
+array (
+  0 => 'manage-post',
+  1 => true,
+)
+=====res====
+array (
+  0 => 'manage-post-categories',
+  1 => true,
+)
+=====res====
+array (
+  0 => 'manage-post',
+  1 => true,
+)
+=====res====
+array (
+  0 => 'manage-post',
+  1 => true,
+)
+=====res====
+array (
+  0 => 'view-dashboard',
+  1 => true,
+)
